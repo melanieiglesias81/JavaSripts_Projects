@@ -42,3 +42,17 @@ function sum(a , b, c){
 //Arrow Function
 var demoSum= (a , b) => console.log(a+b);
 demoSum(2,5)
+
+//Objects
+var listOfNames = {
+    name1: "Marie",
+    name2: "Resita",
+    name3: "Waler",
+}
+
+console.log(listOfNames);
+console.log(listOfNames.name1);
+console.log(listOfNames.name1 +" "+ listOfNames.name2 );
+
+
+console.log(listOfNames['name1'] +" "+ listOfNames['name3']);
